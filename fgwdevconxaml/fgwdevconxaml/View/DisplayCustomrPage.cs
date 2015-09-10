@@ -1,19 +1,19 @@
 ﻿using System;
 using Xamarin.Forms;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace fgwdevcone
+namespace fgwdevconxaml
 {
-	public class DisplayCustomrsPage : ContentPage
+	public class DisplayCustomrPage : ContentPage
 	{
 		private ListView listView;
+		private CustomerService custService;
 
-		public DisplayCustomrsPage ()
+		public DisplayCustomrPage ()
 		{
+			custService = new CustomerService ();
 
 			listView = new ListView {
-
 
 			};
 			//need to add a Details Push Event on the ITemSelected here when working done
@@ -24,17 +24,15 @@ namespace fgwdevcone
 
 			this.Title = "USA Customers";
 			this.Content = new StackLayout {
-				Padding = new Thickness(5, Device.OnPlatform(20,0,0),5,5),
-				Spacing = 3,
+				Padding = new Thickness(0, Device.OnPlatform(20,0,0),0,0),
+				Spacing = 10,
 				Orientation = StackOrientation.Vertical,
 				Children = {
 					listView
 				}
 
 			};
-
 		}
-
 
 		protected async override void OnAppearing()
 		{
@@ -44,9 +42,7 @@ namespace fgwdevcone
 
 		private async Task RefreshAsync()
 		{
-			listView.ItemsSource = await App.CustManager.GetTasksAsync ();
-
-			var cell = new DataTemplate (typeof(TextCell));
+			listView.ItemsSource = await custService.GetTasksAsync();
 			listView.ItemTemplate = new DataTemplate (typeof(CustomerCell));
 		}
 	}

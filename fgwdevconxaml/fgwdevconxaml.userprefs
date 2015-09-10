@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="iOS/fgwdevconxaml.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="fgwdevconxaml/View/DisplayCustomrPage.cs">
+    <Files>
+      <File FileName="fgwdevconxaml/ViewModel/CustomerService.cs" Line="37" Column="3" />
+      <File FileName="fgwdevconxaml/View/HomePage.cs" Line="30" Column="44" />
+      <File FileName="fgwdevconxaml/View/DisplayCustomrPage.cs" Line="46" Column="1" />
+      <File FileName="fgwdevconxaml/fgwdevconxaml.cs" Line="12" Column="50" />
+      <File FileName="iOS/AppDelegate.cs" Line="17" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

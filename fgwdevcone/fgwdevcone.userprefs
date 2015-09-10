@@ -2,14 +2,16 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.4" />
   <MonoDevelop.Ide.Workbench ActiveDocument="fgwdevcone/View/DisplayCustomrsPage.cs">
     <Files>
-      <File FileName="fgwdevcone/ViewModel/CustomerService.cs" Line="40" Column="46" />
-      <File FileName="fgwdevcone/Helper/CustomerCell.cs" Line="24" Column="6" />
-      <File FileName="fgwdevcone/View/DisplayCustomrsPage.cs" Line="51" Column="1" />
+      <File FileName="fgwdevcone/ViewModel/CustomerService.cs" Line="1" Column="1" />
+      <File FileName="fgwdevcone/View/DisplayCustomrsPage.cs" Line="55" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="fgwdevcone/fgwdevcone.cs" Line="1" Column="1" />
+      <File FileName="fgwdevcone/Model/Customers.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/fabianwiilliams/1mycode/CommunityWork/ITDevConnections2015/fgwdevcone/fgwdevcone/View/DisplayCustomrsPage.cs" line="51" column="1" />
+      <Breakpoint file="/Users/fabianwiilliams/1mycode/CommunityWork/ITDevConnections2015/fgwdevcone/fgwdevcone/View/DisplayCustomrsPage.cs" line="49" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
