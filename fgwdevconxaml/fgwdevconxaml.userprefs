@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="iOS/fgwdevconxaml.iOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.4" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="fgwdevconxaml/ViewModel/CustomerService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="fgwdevconxaml/View/DisplayCustomerDetailsPage.xaml">
     <Files>
-      <File FileName="fgwdevconxaml/View/DisplayCustomrPage.cs" Line="45" Column="61" />
-      <File FileName="fgwdevconxaml/ViewModel/CustomerService.cs" Line="48" Column="86" />
+      <File FileName="fgwdevconxaml/View/DisplayCustomerDetailsPage.xaml" Line="7" Column="3" />
+      <File FileName="fgwdevconxaml/View/DisplayCustomerDetailsPage.xaml.cs" Line="8" Column="49" />
+      <File FileName="fgwdevconxaml/View/DisplayCustomr.xaml.cs" Line="22" Column="4" />
+      <File FileName="fgwdevconxaml/View/DisplayCustomrPageOLD.cs" Line="21" Column="88" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
