@@ -4,12 +4,12 @@ using System.Threading.Tasks;
 
 namespace fgwdevconxaml
 {
-	public class DisplayCustomrPage : ContentPage
+	public class DisplayCustomrPageOLD : ContentPage
 	{
 		private ListView listView;
 		private CustomerService custService;
 
-		public DisplayCustomrPage ()
+		public DisplayCustomrPageOLD ()
 		{
 			custService = new CustomerService ();
 
@@ -18,7 +18,7 @@ namespace fgwdevconxaml
 			};
 			//need to add a Details Push Event on the ITemSelected here when working done
 			listView.ItemSelected += (sender, e) => {
-				//Navigation.PushAsync(new PrizeDetail(e.SelectedItem as GiveAway));
+				//Navigation.PushAsync(new DisplayCustomerDetailsPage(e.SelectedItem as GiveAway));
 			};
 
 

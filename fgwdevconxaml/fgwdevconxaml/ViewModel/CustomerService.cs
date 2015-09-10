@@ -12,8 +12,8 @@ namespace fgwdevconxaml
 	public class CustomerService
 	{
 		private MobileServiceClient Client = new MobileServiceClient (
-			"https://fabianitdevcon15e.azure-mobile.net/",
-			"IZIPZLyVzDhbMiwfPSXCZAqjhHHyQv50");
+			Constants.Url,
+			Constants.Key);
 
 		IMobileServiceTable<Customers> custTable;
 

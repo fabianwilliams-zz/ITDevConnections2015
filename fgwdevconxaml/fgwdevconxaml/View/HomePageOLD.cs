@@ -3,11 +3,11 @@ using Xamarin.Forms;
 
 namespace fgwdevconxaml
 {
-	public class HomePage : ContentPage
+	public class HomePageOLD : ContentPage
 	{
-		public HomePage ()
+		public HomePageOLD ()
 		{
-			Padding = new Thickness (0, Device.OnPlatform (0, 0, 0), 0, 0);
+			Padding = new Thickness (5, Device.OnPlatform (20, 0, 0), 5, 5);
 			Title = "ITDevConnections Demo1";
 
 			var greetingLabel = new Label {
@@ -25,13 +25,14 @@ namespace fgwdevconxaml
 			};
 
 			CustomersButton.Clicked += (sender, e) => {
-				Navigation.PushAsync(new DisplayCustomrPage());
+				Navigation.PushAsync(new DisplayCustomrPageOLD());
 			};
 			OrdersButton.Clicked += (sender, e) => {
-				Navigation.PushAsync(new DisplayOrderPage());
+				Navigation.PushAsync(new DisplayOrderPageOld());
 			};
 			Content = new StackLayout {
 				Children = {
+					greetingLabel,
 					CustomersButton,
 					OrdersButton
 				}

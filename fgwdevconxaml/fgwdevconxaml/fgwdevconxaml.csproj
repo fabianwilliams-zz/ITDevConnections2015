@@ -35,9 +35,22 @@
     <Compile Include="Model\Customers.cs" />
     <Compile Include="Helper\CustomerCell.cs" />
     <Compile Include="ViewModel\CustomerService.cs" />
-    <Compile Include="View\HomePage.cs" />
-    <Compile Include="View\DisplayCustomrPage.cs" />
-    <Compile Include="View\DisplayOrderPage.cs" />
+    <Compile Include="View\HomePageOLD.cs" />
+    <Compile Include="View\HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DisplayCustomrPageOLD.cs" />
+    <Compile Include="View\DisplayCustomr.xaml.cs">
+      <DependentUpon>DisplayCustomr.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Constants.cs" />
+    <Compile Include="View\DisplayOrderPageOld.cs" />
+    <Compile Include="View\DisplayOrderPage.xaml.cs">
+      <DependentUpon>DisplayOrderPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DisplayCustomerDetailsPage.xaml.cs">
+      <DependentUpon>DisplayCustomerDetailsPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
@@ -76,5 +89,19 @@
     <Folder Include="Model\" />
     <Folder Include="View\" />
     <Folder Include="ViewModel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DisplayCustomr.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DisplayOrderPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DisplayCustomerDetailsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

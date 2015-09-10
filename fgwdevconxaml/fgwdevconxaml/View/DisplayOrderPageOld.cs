@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace fgwdevconxaml
 {
-	public class DisplayOrderPage : ContentPage
+	public class DisplayOrderPageOld : ContentPage
 	{
-		public DisplayOrderPage ()
+		public DisplayOrderPageOld ()
 		{
 			
 		}
