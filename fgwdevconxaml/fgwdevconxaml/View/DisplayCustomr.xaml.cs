@@ -19,7 +19,8 @@ namespace fgwdevconxaml
 
 		void OnItemSelected (object sender, EventArgs e)
 		{
-
+			//Navigation.PushAsync(new DisplayCustomerDetailsPage(e.SelectedItem as GiveAway));
+			Navigation.PushAsync(new DisplayCustomerDetailsPage());
 		}
 
 		protected async override void OnAppearing()

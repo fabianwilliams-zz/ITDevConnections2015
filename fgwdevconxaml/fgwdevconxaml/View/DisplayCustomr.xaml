@@ -9,7 +9,7 @@
 		HorizontalOptions="FillAndExpand"
 		Orientation="Vertical"
 		Spacing = "5">
-			<ListView x:Name="listView" ItemSelected="OnItemSelected" />
+			<ListView x:Name="listView" ItemSelected="OnItemSelected"/>
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

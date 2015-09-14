@@ -4,6 +4,57 @@
 		x:Class="fgwdevconxaml.DisplayCustomerDetailsPage"
 		Padding="5,0,5,5">
 	<ContentPage.Content>
-		
+		<Grid Padding="5,0" RowSpacing="1" ColumnSpacing="1" BackgroundColor="Black">
+
+			<Grid.RowDefinitions>
+				<RowDefinition Height="2*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="2*" />
+			</Grid.RowDefinitions>
+
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="2*" />
+			</Grid.ColumnDefinitions>
+
+			<Label x:Name="CompanyNameLabel" Font="Bold,32" BackgroundColor="Black" Text="TBD" 
+					TextColor="White" XAlign="Center" YAlign="Center" LineBreakMode="NoWrap" Grid.ColumnSpan="2" />
+			<Label x:Name="roContactLabel" Grid.Row="1" Grid.Column="0"
+				FontSize="11" Text="contact" TextColor="White" XAlign="End" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="ContactLabel" Grid.Row="1" Grid.Column="1"
+				FontSize="17" Text="TBD" TextColor="White" XAlign="Center" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="roAddressLabel" Grid.Row="2" Grid.Column="0"
+				FontSize="11" Text="address" TextColor="White" XAlign="End" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="AddressLabel" Grid.Row="2" Grid.Column="1"
+				FontSize="17" Text="TBD" TextColor="White" XAlign="Center" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="roCityLabel" Grid.Row="3" Grid.Column="0"
+				FontSize="11" Text="city" TextColor="White" XAlign="End" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="CityLabel" Grid.Row="3" Grid.Column="1"
+				FontSize="17" Text="TBD" TextColor="White" XAlign="Center" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="roPostalCodeLabel" Grid.Row="4" Grid.Column="0"
+				FontSize="11" Text="Postal Code" TextColor="White" XAlign="End" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="PostalCodeLabel" Grid.Row="4" Grid.Column="1"
+				FontSize="17" Text="TBD" TextColor="White" XAlign="Center" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="roCountryLabel" Grid.Row="5" Grid.Column="0"
+				FontSize="11" Text="city" TextColor="White" XAlign="End" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="CountryLabel" Grid.Row="5" Grid.Column="1"
+				FontSize="17" Text="TBD" TextColor="White" XAlign="Center" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="roPhoneLabel" Grid.Row="6" Grid.Column="0"
+				FontSize="11" Text="telephone" TextColor="White" XAlign="End" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="PhoneLabel" Grid.Row="6" Grid.Column="1"
+				FontSize="17" Text="TBD" TextColor="White" XAlign="Center" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="roFaxLabel" Grid.Row="7" Grid.Column="0"
+				FontSize="11" Text="facsimilie" TextColor="White" XAlign="End" YAlign="Center" LineBreakMode="NoWrap" />
+			<Label x:Name="FaxLabel" Grid.Row="7" Grid.Column="1"
+				FontSize="17" Text="TBD" TextColor="White" XAlign="Center" YAlign="Center" LineBreakMode="NoWrap" />										
+			<Button x:Name="UpdateContactButton" Text="Update Contact" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2"
+			BackgroundColor="#FFA500" TextColor="White" Font="23" BorderRadius="0" />
+		</Grid>
 	</ContentPage.Content>
 </ContentPage>
